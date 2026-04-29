@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Школа Схуднення — м'яка трансформація тіла</title>
+  <meta name="description" content="Цифрова школа, де жінки повертаються до свого тіла без виснажливих дієт. Програми, гайди, супровід." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">Школа <span class="logo__accent">Схуднення</span></a>
+      <nav class="nav" id="nav">
+        <a href="#about">О нас</a>
+        <a href="#products">Продукти</a>
+        <a href="#testimonials">Відгуки</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <a href="#products" class="btn btn--primary btn--sm header__cta">Почати</a>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <img src="img/hero.jpg" alt="Жінка займається йогою у м'якому ранковому світлі" class="hero__bg" />
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow eyebrow--light">Цифрова школа</p>
+        <h1 class="hero__title">Тіло, в якому<br /><span class="italic accent">ти вдома.</span></h1>
+        <p class="hero__sub">М'яка трансформація через звички, харчування і рух — без виснажливих дієт і відчуття провини.</p>
+        <div class="hero__ctas">
+          <a href="#products" class="btn btn--primary">Отримати план <span aria-hidden>→</span></a>
+          <a href="#about" class="btn btn--ghost">Дізнатись більше</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container about__grid">
+        <div class="about__head">
+          <p class="eyebrow">— О нас</p>
+          <h2 class="h2">Менше правил.<br /><span class="italic">Більше уваги до себе.</span></h2>
+        </div>
+        <div class="about__body">
+          <p>Олена Демніченко — Автор програм та методики відновлення форми. «Я створюю покрокові системи, що допомагають жінкам зміцнити тіло, налагодити раціон та отримати омріяний результат без шкоди для здоров’я. Мій підхід — це поєднання ефективних вправ та збалансованого харчування».</p>
+            <div class="stats">
+              <div class="stat"><div class="stat__num">12</div><div class="stat__label">років у спорті</div></div>
+              <div class="stat"><div class="stat__num">94%</div><div class="stat__label">доходять до результату</div></div>
+              <div class="stat"><div class="stat__num">8</div><div class="stat__label">тижнів зміни звичок</div></div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products section section--alt" id="products">
+      <div class="container">
+        <div class="products__head">
+          <div>
+            <p class="eyebrow">— Продукти</p>
+            <h2 class="h2">Обери свій шлях.</h2>
+          </div>
+          <p class="products__lead">Дві програми для різних цілей — від глибокої трансформації до точкового результату.</p>
+        </div>
+        <div class="products__grid">
+          <article class="card">
+            <div class="card__media"><img src="img/product1.jpg" alt="8-тижневий супровід" loading="lazy" /></div>
+            <div class="card__body">
+              <span class="eyebrow">Флагман</span>
+              <h3 class="h3">Body Transformation: 8 тижнів</h3>
+              <p class="card__desc">Дистанційне навчання та персоналізований супровід у міні-групах.</p>
+              <ul class="features">
+                <li>Відео-лекції</li>
+                <li>індивідуальні рекомендації по раціону на основі анкетування</li>
+                <li>Чзворотний зв'язок 8 тижнів та закритий чат</li>
+              </ul>
+              <a href="#contact" class="btn btn--primary btn--full">Купити курс <span aria-hidden>→</span></a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card__media"><img src="img/product2.jpg" alt="Гайд Плоский живіт" loading="lazy" /></div>
+            <div class="card__body">
+              <span class="eyebrow">Гайд</span>
+              <h3 class="h3">Плоский живіт</h3>
+              <p class="card__desc">Навчальний відео-курс для самостійної роботи вдома.</p>
+              <ul class="features">
+                <li>3 відео-тренування на м'язи пресу</li>
+                <li>покрокова інструкція «Вакуум»</li>
+                <li> PDF-гайд «Здорова тарілка»</li>
+              </ul>
+              <a href="#contact" class="btn btn--primary btn--full">Отримати гайд <span aria-hidden>→</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials section" id="testimonials">
+      <div class="container">
+        <div class="testimonials__head">
+          <p class="eyebrow">— Результати</p>
+          <h2 class="h2">Історії, що <span class="italic">надихають.</span></h2>
+        </div>
+        <div class="slider" id="slider">
+            <div class="slides" id="sliderTrack">
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review1.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review2.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review3.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review4.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review5.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review6.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review7.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review8.jpg">
+                </div>
+              </div>
+              <div class="slide">
+                <div class="img-wrapper">
+                  <img src="/img/review9.jpg">
+                </div>
+              </div>
+            </div>
+          <div class="slider__nav">
+            <button class="prev" id="prevBtn" aria-label="Назад">←</button>
+            <button class="next" id="nextBtn" aria-label="Вперед">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <h3 class="footer__logo">Школа <span class="italic accent-warm">Схуднення</span></h3>
+          <p>Простір, де трансформація починається з турботи про себе, а не з боротьби.</p>
+        </div>
+        <div>
+          <p class="footer__heading">Меню</p>
+          <ul class="footer__links">
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#products">Продукти</a></li>
+            <li><a href="#testimonials">Відгуки</a></li>
+            <li><a href="#contact">Контакти</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Зв'язок</p>
+          <ul class="footer__links">
+            <li><a href="mailto:firkovich2014@gmail.com">✉ firkovich2014@gmail.com</a></li>
+            <li><a href="https://www.instagram.com/ellen_demi/">◎ @ellen_demi</a></li>
+            <li><a href="#">✈ @Ell_di</a></li>
+            <li><a href="oferta.html">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ ТА ПУБЛІЧНА ОФЕРТА (ДОГОВІР)</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Школа Схуднення. Усі права захищені.</p>
+        <p>Створено з турботою.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
